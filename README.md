@@ -322,6 +322,8 @@ Evalúa la seguridad de la contraseña ingresada.
 Muestra el resultado en la interfaz con mensaje y color correspondientes.
 
 ---
+![image](https://github.com/user-attachments/assets/3b802d51-cf7c-4e46-b186-3eec5eb72319)
+
 
 LINK VIDEO:
 https://youtu.be/XBAtezCmiSA
