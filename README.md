@@ -1,5 +1,6 @@
 # LibreriaGenerarPassword
 integrantes:
+
 Nuñez Reyes Jorge Emilio 
 
 Antonio Contreras Alan
@@ -92,7 +93,7 @@ Este método genera una contraseña segura y aleatoria, compuesta por letras (ma
 - Devuelve la contraseña final generada.
 
 ---
-##️Método `seguridadContraseña(String password)`
+##️ Método 'seguridadContraseña(String password)'
 
 Este método evalúa la seguridad de una contraseña proporcionada por el usuario y devuelve un objeto `resultadoValidacion`, que incluye un mensaje y un color visual (útil para interfaces gráficas).
 
