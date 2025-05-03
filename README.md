@@ -323,26 +323,36 @@ Muestra el resultado en la interfaz con mensaje y color correspondientes.
 
 -----
 # Instrucciones para importar la libreria a otro proyecto
-1.-Primero haremos un nuevo proyecto con un nuevo jframe. ![image](https://github.com/user-attachments/assets/ed569ac9-2bfe-494f-8cb0-a53a564370a2)
-el diseño sugerido como el de la imagen.![image](https://github.com/user-attachments/assets/b5a29863-b617-4abf-bae1-89eed90ed507)
+1.-Primero haremos un nuevo proyecto con un nuevo jframe.
+![image](https://github.com/user-attachments/assets/ed569ac9-2bfe-494f-8cb0-a53a564370a2)
+
+el diseño sugerido como el de la imagen.
+![image](https://github.com/user-attachments/assets/b5a29863-b617-4abf-bae1-89eed90ed507)
 
 2.-Daremos clic derecho en la parte del proyecto que dice libraries, y seleccionaremos en el aparatdo que dice Add JAR/Folder.
+
 ![image](https://github.com/user-attachments/assets/77ddb6e5-239b-4975-bf97-e73539e571dc)
 
 3.-Se abre nuestros archivos, buscaremos nuestra biblioteca, en este caso con el nombre de BibliotecaContrasena.
+
 ![image](https://github.com/user-attachments/assets/f3501d50-db3c-4467-ab21-03f4811b2cfb)
+
 selecionamos y revisamos que aparezca añadido en nuestro proyecto en el apartado de libraries.
+
 ![image](https://github.com/user-attachments/assets/ff9d6800-71c9-4705-861e-b495ac480f8c)
 
 4.- Por ultimo tenemos que en el codigo implementar un import bibliotecacontrasena.generarContrasena; para hacer referencia a nuestra biblioteca.
 
 y en la funcionalidad de los componentes agregados metemos las siguientes lineas de codigo para que hagan su funcionalidad
+
 ![image](https://github.com/user-attachments/assets/2f4f95b0-71ee-4668-8947-8586ef716afe)
 
 5.- su funcionalidad es generar contraseñas segurar. al hacer clic en contraseña sugerida siempre nos dará una contraseña segura de 8 caracteres.
+
 ![image](https://github.com/user-attachments/assets/cd51fea8-4266-405f-8e2c-28f34a3443f0)
 
 si se detecta una contraseña muy debil por ejemplo, solo letras, solo numeros o palabras comunes, nos dara la advertencia segun la seguridad, asi mismo nos dirá si se pasa del limite de caracteres.
+
 ![image](https://github.com/user-attachments/assets/c782ca59-6379-471f-9e10-f5126dd943f1)
 
 ![image](https://github.com/user-attachments/assets/87f92fc5-c6a6-4547-a3c5-44fc87a39f53)
