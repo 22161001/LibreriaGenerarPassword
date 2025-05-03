@@ -19,7 +19,7 @@ public class prueba extends javax.swing.JFrame {
         
     }
     private void configurarLblOjo() {
-        lblMostrar.setIcon(new javax.swing.ImageIcon("\ojo-cruzado2.png")); 
+        lblMostrar.setIcon(new javax.swing.ImageIcon("/ojo-cruzado2.png")); 
         lblMostrar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         lblMostrar.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -32,10 +32,10 @@ public class prueba extends javax.swing.JFrame {
     private void lblOjoMouseClicked(java.awt.event.MouseEvent evt) {
         if (mostrarContraseña) {
             pswContra.setEchoChar('•'); 
-            lblMostrar.setIcon(new javax.swing.ImageIcon("\ojo-cruzado2.png"));
+            lblMostrar.setIcon(new javax.swing.ImageIcon("/ojo-cruzado2.png"));
         } else {
             pswContra.setEchoChar((char) 0); 
-            lblMostrar.setIcon(new javax.swing.ImageIcon("\ojo-abierto2.png"));
+            lblMostrar.setIcon(new javax.swing.ImageIcon("/ojo-abierto2.png"));
         }
         mostrarContraseña = !mostrarContraseña;
     }
