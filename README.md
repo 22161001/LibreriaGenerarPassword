@@ -25,7 +25,7 @@ Es ideal para ser utilizado en sistemas de login, gestores de contraseñas o cua
 
 ---
 
-##Explicación del Código
+## Explicación del Código
 
 ### Clase principal: `generarContrasena`
 
@@ -33,7 +33,7 @@ Contiene todos los métodos estáticos para generar, validar y limpiar contrase�
 
 ---
 
-### 🔧 Métodos
+###  Métodos
 
 ## Método `generaPassword(int length)`
 
@@ -90,7 +90,7 @@ Este método genera una contraseña segura y aleatoria, compuesta por letras (ma
 - Devuelve la contraseña final generada.
 
 ---
-##️ Método `seguridadContraseña(String password)`
+##️Método `seguridadContraseña(String password)`
 
 Este método evalúa la seguridad de una contraseña proporcionada por el usuario y devuelve un objeto `resultadoValidacion`, que incluye un mensaje y un color visual (útil para interfaces gráficas).
 
